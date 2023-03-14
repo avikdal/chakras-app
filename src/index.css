@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  display: flex
+}
+
+.lotusHeader{
+  max-width: 6%;
+  padding: 1rem;
+}
+
+nav {
+  background-color: white;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: copperplate;
+  color: purple;
+  border-bottom: 2px solid purple;
+  transition: 0.1s;
+}
+
+nav a:hover,
+nav a:active {
+  color: darkorchid;
+  border-bottom: 2px solid darkorchid;
+}
+
+nav a.active {
+  color: white;
+  background: darkorchid;
+}
+
+#home{
+  font-family: papyrus;
+}
+
+.homePageChakraParagraph{
+  padding: 4rem;
+  font-family: papyrus;
+}
+
+.chakraTiles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 800px;
+}
+
+.chakraTile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: pink;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+
