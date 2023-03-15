@@ -5,7 +5,7 @@ function NavBar(){
     return (
     <nav className="navBar">
         <NavLink exact to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/journal">Journal</NavLink>
         <NavLink exact to="/chakras">Chakras</NavLink>
     </nav>
     )

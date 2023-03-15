@@ -76,4 +76,41 @@ nav a.active {
   margin: 1rem;
 }
 
+.entry-form {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+}
+
+.entry-form form {
+  display: flex;
+  justify-content: center;
+}
+
+.entry-form input {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+input {
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1em;
+  border-bottom: 2px solid gray;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+.entry-form button {
+  width: 150px;
+}
+
+.button{
+  background-color: rgba(153, 50, 204, 0.564);
+  color: white;
+  padding: 0.25rem 1rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1em;
+}
 
