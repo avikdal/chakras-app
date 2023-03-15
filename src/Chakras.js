@@ -19,10 +19,10 @@ function Chakras(){
     })
 
     return(
-        <section id="chakras">
-            <h1 style={{ color:"orangered" }}>
+        <section className="chakras">
+            {/* <h1 style={{ color:"orangered" }}>
                 Chakras
-            </h1>
+            </h1> */}
             <div className="chakraTiles">{chakraFlower}</div>
         </section>
     )

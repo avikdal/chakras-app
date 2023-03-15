@@ -21,7 +21,7 @@ function Journal(){
 
 
     return (
-        <section id="about">
+        <section className="journal">
             <h1 style={{ color: "green" }}> 
                 You are encouraged to try different techniques to become more aware of your chakras, here is a space to share you insights and findings
             </h1>

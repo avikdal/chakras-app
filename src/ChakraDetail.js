@@ -6,18 +6,16 @@ function ChakraDetail({ chakra }) {
     
     
     return (
-            <div key={chakra.id} to={`/chakras/${chakra.id}`} className="chakraTile">
+            <div key={chakra.id} className="chakraTile">
                 <img src={chakra.image} alt={chakra.name} />
-                <ul>
-                    <h2>Sanskrit Name: {chakra.name}</h2>
-                    <h2>English Name: {chakra.english_name}</h2>
-                </ul>
-                <ul>
+                <h2>Sanskrit Name: {chakra.name}</h2>
+                <h2>English Name: {chakra.english_name}</h2>
+                <span>
                  <p>Location in Body: {chakra.location}</p>
                  <p>Supportive Yoga Poses: {chakra.yoga}</p>
                  <p>Element: {chakra.element}</p>
                  <p>Color: {chakra.color}</p>
-                </ul>
+                </span>
             </div>
     );
 }

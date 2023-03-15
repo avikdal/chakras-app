@@ -49,41 +49,54 @@ nav a.active {
 }
 
 #home{
-  font-family: papyrus;
+  font-family: copperplate;
 }
 
 .homePageChakraParagraph{
   padding: 4rem;
-  font-family: papyrus;
+  font-family: copperplate;
+}
+
+.journal {
+  font-family: copperplate;
+}
+
+.chakras {
+  display: flex;
+  justify-content: center;
 }
 
 .chakraTiles{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 70%;
+    width: 60%;
     max-width: 800px;
 }
 
 .chakraTile {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: rgba(181, 250, 181, 0.941);
+  justify-content: center;
+  background-color: lemonchiffon;
   padding: 2rem;
   margin: 1rem;
-  font-family: papyrus;
+  font-family: copperplate;
+  border: 2px solid gold;
 }
 
 .chakraTile img {
-  width: 70%;
+  width: 50%;
+  border: 2px solid gold;
 }
 
 .entry-form {
   padding: 2rem 1rem;
   margin: 2rem 0;
+  padding: 2rem;
+  background-color: lemonchiffon;
 }
 
 .entry-form form {
@@ -101,7 +114,7 @@ input {
   border: none;
   font-family: inherit;
   font-size: 1em;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid gold;
   transition: all 0.2s;
   width: 100%;
 }
@@ -111,10 +124,9 @@ input {
 }
 
 .button{
-  background-color: rgba(153, 50, 204, 0.564);
-  color: white;
+  background-color: lemonchiffon;
   padding: 0.25rem 1rem;
-  border: none;
+  border: 2px solid gold;
   font-family: inherit;
   font-size: 1em;
 }
