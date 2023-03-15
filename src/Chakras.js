@@ -12,9 +12,6 @@ function Chakras(){
         .then(chakra => setChakras(chakra))
     }, [])
 
-    console.log(chakras)
-    //map over chakras, to creat chakra tiles, in Chakra page shows a clickable flower for each
-
     const chakraFlower = chakras.map((chakra) => {
         return (
             <ChakraDetail key={chakra.id} chakra={chakra} />

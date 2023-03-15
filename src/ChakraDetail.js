@@ -7,9 +7,7 @@ function ChakraDetail({ chakra }) {
     
     return (
             <div key={chakra.id} to={`/chakras/${chakra.id}`} className="chakraTile">
-                <section>
-                    <img src={chakra.image} alt={chakra.name} />
-                </section>
+                <img src={chakra.image} alt={chakra.name} />
                 <ul>
                     <h2>Sanskrit Name: {chakra.name}</h2>
                     <h2>English Name: {chakra.english_name}</h2>

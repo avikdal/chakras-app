@@ -63,7 +63,7 @@ nav a.active {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
+    width: 70%;
     max-width: 800px;
 }
 
@@ -71,9 +71,14 @@ nav a.active {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: pink;
+  background-color: rgba(181, 250, 181, 0.941);
   padding: 2rem;
   margin: 1rem;
+  font-family: papyrus;
+}
+
+.chakraTile img {
+  width: 70%;
 }
 
 .entry-form {
