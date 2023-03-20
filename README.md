@@ -1,23 +1,26 @@
-# image.png Chakras App
+# Chakras App (U+1FAB7)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*Know your energetic body through chakras*
 
-## Available Scripts
+![lotus](https://media.istockphoto.com/id/472321225/vector/lotus-flower-buddhist-symbol.jpg?s=612x612&w=0&k=20&c=AyKHBlHp_RsbdDKF4g5L5k5lmzXCVkVn0qSC2THcyds=)
 
-In the project directory, you can run:
+We are so much more than our physical bodies, taking the time to understand and get to know your energetic body through chakras can bring more understanding and harmony to your life. 
 
-### `npm start`
+## What
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is meant to be an introduction into one of the subtle bodies known as the energetic body, via the chakra system. This app serves as a space to keep track of practices and insights that one may have on there journey in getting to know their chakras.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Why
 
-### `npm test`
+There is a lot of information about chakras and different practices available for bring balance to the body, it can often be overwhelming and many people are not sure where to start. This app provides a space that links can be saved and refenced as well as comments and journal entries on what is being noticed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Resources
+
+https://www.arhantayoga.org/blog/7-chakras-introduction-energy-centers-effect/
+
+https://www.wellandgood.com/what-are-chakras/
+
+Eastern Body, Western Mind Book by Anodea Judith
 
 ### `npm run build`
 
