@@ -93,6 +93,11 @@
       "date": "3/18/23",
       "entry": "this is a journal entry",
       "id": 3
+    },
+    {
+      "date": "3/3/23",
+      "entry": "Hello its me",
+      "id": 4
     }
   ]
 }

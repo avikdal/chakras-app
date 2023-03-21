@@ -138,3 +138,13 @@ input {
   flex-direction: column;
 }
 
+.entry{
+  border: 2px solid gold;
+  margin-bottom: .5rem;
+}
+
+.journalPrompt{
+  padding: .5rem;
+  display: flex;
+}
+

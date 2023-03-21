@@ -12,7 +12,7 @@ function Journal(){
 
     const entryList = entries.map((entry) => {
         return (
-            <div key={entry.id}>
+            <div key={entry.id} className="entry">
                 <h5>{entry.date}</h5>
                 <p>{entry.entry}</p>
             </div>
@@ -22,9 +22,9 @@ function Journal(){
 
     return (
         <section className="journal">
-            <h1 style={{ color: "green" }}> 
+            <h3 style={{ color: "green" }} className="journalPrompt"> 
                 You are encouraged to try different techniques to become more aware of your chakras, here is a space to share you insights and findings
-            </h1>
+            </h3>
             <Form entries={entries} setEntries={setEntries}/>
             <div className="journalEntries">
                 {entryList}
