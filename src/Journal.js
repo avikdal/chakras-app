@@ -26,7 +26,7 @@ function Journal(){
                 You are encouraged to try different techniques to become more aware of your chakras, here is a space to share you insights and findings
             </h1>
             <Form entries={entries} setEntries={setEntries}/>
-            <div>
+            <div className="journalEntries">
                 {entryList}
             </div>
         </section>
