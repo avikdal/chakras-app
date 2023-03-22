@@ -1,4 +1,4 @@
-# Chakras App (U+1FAB7)
+# Chakras App
 
 *Know your energetic body through chakras*
 
@@ -14,7 +14,7 @@ This is meant to be an introduction into one of the subtle bodies known as the e
 
 There is a lot of information about chakras and different practices available for bring balance to the body, it can often be overwhelming and many people are not sure where to start. This app provides a space that links can be saved and refenced as well as comments and journal entries on what is being noticed.
 
-### `Resources
+### Resources
 
 https://www.arhantayoga.org/blog/7-chakras-introduction-energy-centers-effect/
 
