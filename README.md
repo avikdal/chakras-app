@@ -24,4 +24,4 @@ Eastern Body, Western Mind Book by Anodea Judith
 
 ### Review of What I learned
 
-Throughout this project I had sos much practicing the React I have been learning over the past several week and was reminded that I have a lot of room to grow, specifically I'm excited to contiue practiing my CSS skills and building further on this project to continue to get better working with React. Overall, I'm really pleased with what I built in the time I had and I look forward to imporiving this project.
+Throughout this project, I had so much fun practicing the things I have been learning in React over the past couple of weeks. I was reminded that I have a lot of room to grow, specifically, I'm excited to continue practicing my CSS skills and building further on this project to continue to get better at working with React. Overall, I'm really pleased with what I built in the time I had and I look forward to improving this project.
