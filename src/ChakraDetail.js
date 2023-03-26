@@ -2,9 +2,6 @@ import React from "react";
 
 function ChakraDetail({ chakra }) {
 
-    // const { name, english_name, image, location, color, element, crystals, yoga } = chakra
-    
-    
     return (
             <div key={chakra.id} className="chakraTile">
                 <img src={chakra.image} alt={chakra.name} />

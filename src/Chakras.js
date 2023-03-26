@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import ChakraDetail from "./ChakraDetail";
-// import { Link } from "react-router-dom";
 
 
 function Chakras(){
@@ -20,9 +19,6 @@ function Chakras(){
 
     return(
         <section className="chakras">
-            {/* <h1 style={{ color:"orangered" }}>
-                Chakras
-            </h1> */}
             <div className="chakraTiles">{chakraFlower}</div>
         </section>
     )

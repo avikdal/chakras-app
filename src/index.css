@@ -85,11 +85,13 @@ nav a.active {
   margin: 1rem;
   font-family: copperplate;
   border: 2px solid gold;
+  flex-wrap: wrap;
 }
 
 .chakraTile img {
   width: 50%;
   border: 2px solid gold;
+  flex-wrap: wrap;
 }
 
 .entry-form {
