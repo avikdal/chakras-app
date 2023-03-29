@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 
-function Form({ entries, setEntries }){
-    const [form, setForm] = useState({});
+function EntryForm({ entries, setEntries }){
+    const [formData, setFormData] = useState({
+        date: "",
+        entry: "",
+    });
 
     let handleChange = (e) => {
       let name = e.target.name;
       let value = e.target.value;
-      setForm({
-        ...form,
+      setFormData({
+        ...formData,
         [name]: value,
       });
     }
@@ -19,11 +22,16 @@ function Form({ entries, setEntries }){
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify(form),
+            body: JSON.stringify(formData),
         })
         .then((r) => r.json())
-        .then((form) => setEntries([form, ...entries]))
-        // how do I reset the form after submission? setForm({})
+        .then((entry) => {
+            setEntries([...entries, entry])
+            setFormData({
+                date: "",
+                entry: "",
+            })
+        })
     }
 
     return (
@@ -33,13 +41,15 @@ function Form({ entries, setEntries }){
                 onChange={handleChange}
                 type="text"
                 name="date"
-                placeholder="Date"
+                placeholder="date"
+                value={formData.date}
             />
             <input
                 onChange={handleChange}
                 type="text"
                 name="entry"
                 placeholder="Journal Entry"
+                value={formData.entry}
             />
             <button className="button" type="submit">Add Entry</button>
         </form>
@@ -47,4 +57,4 @@ function Form({ entries, setEntries }){
     );
 }
 
-export default Form;
+export default EntryForm;

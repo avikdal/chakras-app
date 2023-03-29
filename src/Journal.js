@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Form from "./Form";
+import EntryForm from "./EntryForm";
 
 function Journal(){
     const [entries, setEntries] = useState([])
@@ -25,7 +25,7 @@ function Journal(){
             <h3 style={{ color: "green" }} className="journalPrompt"> 
                 You are encouraged to try different techniques to become more aware of your chakras, here is a space to share your insights and findings
             </h3>
-            <Form entries={entries} setEntries={setEntries}/>
+            <EntryForm entries={entries} setEntries={setEntries}/>
             <div className="journalEntries">
                 {entryList}
             </div>

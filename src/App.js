@@ -5,7 +5,6 @@ import Header from "./Header"
 import Home from "./Home";
 import Journal from "./Journal";
 import Chakras from "./Chakras";
-import ChakraDetail from './ChakraDetail';
 
 function App() {
   return (
@@ -14,9 +13,6 @@ function App() {
       <Switch>
         <Route path="/journal">
           <Journal />
-        </Route>
-        <Route exact path="/chakras/:id">
-          <ChakraDetail />
         </Route>
         <Route exact path="/chakras">
           <Chakras />
