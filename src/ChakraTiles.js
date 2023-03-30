@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import ChakraDetail from "./ChakraDetail";
+import ChakraTile from "./ChakraTile";
 
 
-function Chakras(){
+function ChakraTiles(){
     const [chakras, setChakras] = useState([])
 
     useEffect(() => {
@@ -11,17 +11,17 @@ function Chakras(){
         .then(chakra => setChakras(chakra))
     }, [])
 
-    const chakraFlower = chakras.map((chakra) => {
+    const chakra = chakras.map((chakra) => {
         return (
-            <ChakraDetail key={chakra.id} chakra={chakra} />
+            <ChakraTile key={chakra.id} chakra={chakra} />
         )
     })
 
     return(
         <section className="chakras">
-            <div className="chakraTiles">{chakraFlower}</div>
+            <div className="chakraTiles">{chakra}</div>
         </section>
     )
 }
 
-export default Chakras;
+export default ChakraTiles;

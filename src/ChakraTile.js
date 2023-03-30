@@ -1,6 +1,6 @@
 import React from "react";
 
-function ChakraDetail({ chakra }) {
+function ChakraTile({ chakra }) {
 
     return (
             <div key={chakra.id} className="chakraTile">
@@ -19,4 +19,4 @@ function ChakraDetail({ chakra }) {
     );
 }
 
-export default ChakraDetail;
+export default ChakraTile;
