@@ -61,6 +61,12 @@ nav a.active {
   font-family: copperplate;
 }
 
+.journalPrompt {
+  border: 2px solid gold;
+  padding: 2rem;
+  margin: 1rem;
+}
+
 .chakras {
   display: flex;
   justify-content: center;
@@ -85,7 +91,6 @@ nav a.active {
   margin: 1rem;
   font-family: copperplate;
   border: 2px solid gold;
-  flex-wrap: wrap;
 }
 
 .chakraTile img {
