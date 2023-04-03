@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import EntryForm from "./EntryForm";
+import SearchBar from "./SearchBar";
+
 
 function Journal(){
     const [entries, setEntries] = useState([])
+    const [search, setSearch] = useState("")
 
     useEffect(() => {
         fetch('http://localhost:3000/journalEntries')
@@ -10,7 +13,9 @@ function Journal(){
         .then(entries => setEntries(entries))
     }, [])
 
-    const entryList = entries.map((entry) => {
+    const comparingSearch = entries.filter(entry => entry.entry.includes(search))
+
+    const entryList = comparingSearch.map((entry) => {
         return (
             <div key={entry.id} className="entry">
                 <h5>{entry.date}</h5>
@@ -20,6 +25,10 @@ function Journal(){
     })
 
 
+    console.log("search in journal", search)
+    // send search data up to journal
+    // compare and filter through y entries if entries has a match then 
+
     return (
         <section className="journal">
             <br />
@@ -27,6 +36,7 @@ function Journal(){
                 You are encouraged to try different techniques to become more aware of your chakras, here is a space to share your insights and findings
             </h3>
             <EntryForm entries={entries} setEntries={setEntries}/>
+            <SearchBar search={search} setSearch={setSearch} />
             <div className="journalEntries">
                 {entryList}
             </div>
