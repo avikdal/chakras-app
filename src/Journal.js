@@ -24,11 +24,6 @@ function Journal(){
         )
     })
 
-
-    console.log("search in journal", search)
-    // send search data up to journal
-    // compare and filter through y entries if entries has a match then 
-
     return (
         <section className="journal">
             <br />
