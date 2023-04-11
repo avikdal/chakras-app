@@ -4,7 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import Header from "./Header"
 import Home from "./Home";
 import Journal from "./Journal";
-import ChakraTiles from "./ChakraTiles";
+import Chakras from "./Chakras";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Journal />
         </Route>
         <Route exact path="/chakras">
-          <ChakraTiles />
+          <Chakras />
         </Route>
         <Route exact path="/">
           <Home />

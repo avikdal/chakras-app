@@ -116,6 +116,23 @@ nav a.active {
   flex: 1;
 }
 
+.journalSearch {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: lemonchiffon;
+}
+
+.journalSearch form {
+  display: flex;
+  justify-content: center;
+}
+
+.journalSearch input {
+  margin-right: 2rem;
+  flex: 1;
+}
+
 input {
   padding: 0.25rem;
   border: none;
@@ -126,17 +143,15 @@ input {
   width: 100%;
 }
 
-.entry-form button {
-  width: 150px;
-}
-
 .button{
-  background-color: lemonchiffon;
+  background-color: gainsboro;
   padding: 0.25rem 1rem;
   border: 2px solid gold;
   font-family: inherit;
   font-size: 1em;
+  width: 150px
 }
+
 
 .journalEntries{
   padding: 5rem;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function EntryForm({ entries, setEntries }){
+function JournalEntryForm({ entries, setEntries }){
     const [formData, setFormData] = useState({
         date: "",
         entry: "",
@@ -57,4 +57,4 @@ function EntryForm({ entries, setEntries }){
     );
 }
 
-export default EntryForm;
+export default JournalEntryForm;

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import EntryForm from "./EntryForm";
-import SearchBar from "./SearchBar";
+import JournalEntryForm from "./JournalEntryForm";
+import JournalSearchBar from "./JournalSearchBar";
 
 
 function Journal(){
@@ -8,9 +8,11 @@ function Journal(){
     const [search, setSearch] = useState("")
 
     useEffect(() => {
-        fetch('http://localhost:3000/journalEntries')
-        .then(r => r.json())
-        .then(entries => setEntries(entries))
+        setTimeout(() => {
+            fetch('http://localhost:3000/journalEntries')
+            .then(r => r.json())
+            .then(entries => setEntries(entries))
+        }, 1000)
     }, [])
 
     const comparingSearch = entries.filter(entry => entry.entry.includes(search))
@@ -30,8 +32,8 @@ function Journal(){
             <h3 style={{ color: "black" }} className="journalPrompt"> 
                 You are encouraged to try different techniques to become more aware of your chakras, here is a space to share your insights and findings
             </h3>
-            <EntryForm entries={entries} setEntries={setEntries}/>
-            <SearchBar search={search} setSearch={setSearch} />
+            <JournalEntryForm entries={entries} setEntries={setEntries}/>
+            <JournalSearchBar search={search} setSearch={setSearch} />
             <div className="journalEntries">
                 {entryList}
             </div>

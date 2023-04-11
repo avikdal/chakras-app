@@ -1,6 +1,11 @@
 import React from "react";
 
-function ChakraTile({ chakra }) {
+function ChakraTile({ chakra, handleSelectedChakra }) {
+
+    function handleClick(){
+        console.log(chakra)
+        handleSelectedChakra(chakra)
+    }
 
     return (
             <div key={chakra.id} className="chakraTile">
@@ -11,9 +16,11 @@ function ChakraTile({ chakra }) {
                 <span>
                  <p>Location in Body: {chakra.location}</p>
                  <p>Supportive Yoga Poses: {chakra.yoga}</p>
+                 <p>Associated Crystals: {chakra.crystals}</p>
                  <p>Element: {chakra.element}</p>
                  <p>Color: {chakra.color}</p>
                 </span>
+                <button className="button" onClick={handleClick}>Edit Chakra</button>
                 </div>
             </div>
     );
