@@ -2,7 +2,6 @@ import React from 'react'
 
 function ChakraForm({ chakra, handleChangeForm, handleUpdatedChakra }) {
 
-    console.log("chakra in chakra form", chakra)
     const { color, crystals, yoga } = chakra
 
     function handleSubmit(e){

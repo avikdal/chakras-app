@@ -29,7 +29,7 @@ function Journal(){
     return (
         <section className="journal">
             <br />
-            <h3 style={{ color: "black" }} className="journalPrompt"> 
+            <h3 style={{ color: "black", backgroundColor: "lemonchiffon" }} className="journalPrompt"> 
                 You are encouraged to try different techniques to become more aware of your chakras, here is a space to share your insights and findings
             </h3>
             <JournalEntryForm entries={entries} setEntries={setEntries}/>

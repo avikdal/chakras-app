@@ -8,7 +8,7 @@ function ChakraTile({ chakra, handleSelectedChakra }) {
     }
 
     return (
-            <div key={chakra.id} className="chakraTile">
+            <div key={chakra.id} className="chakraTile" >
                 <img src={chakra.image} alt={chakra.name} />
                 <div>
                 <h4>Sanskrit Name: {chakra.name}</h4>
@@ -20,8 +20,8 @@ function ChakraTile({ chakra, handleSelectedChakra }) {
                  <p>Element: {chakra.element}</p>
                  <p>Color: {chakra.color}</p>
                 </span>
-                <button className="button" onClick={handleClick}>Edit Chakra</button>
-                </div>
+                <button className="button" onClick={handleClick} style={{backgroundColor: `${chakra.color}`}}>Edit Chakra</button>
+            </div>
             </div>
     );
 }
