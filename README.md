@@ -2,6 +2,8 @@
 
 *Know your energetic body through chakras*
 
+![walkthrough gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDJ2Z3B2cGpreW9kYmxiZjZtNzFmMmdyejliNnAyYjFtMWVkY3p6ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wWbKeTna1JjDL9ITpD/giphy.gif)
+
 ![lotus](https://media.istockphoto.com/id/472321225/vector/lotus-flower-buddhist-symbol.jpg?s=612x612&w=0&k=20&c=AyKHBlHp_RsbdDKF4g5L5k5lmzXCVkVn0qSC2THcyds=)
 
 We are so much more than our physical bodies, taking the time to understand and get to know your energetic body through chakras can bring more understanding and harmony to your life. 
