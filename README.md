@@ -1,7 +1,5 @@
 # Chakras App
 
-<iframe src="https://giphy.com/embed/wWbKeTna1JjDL9ITpD" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/wWbKeTna1JjDL9ITpD">via GIPHY</a></p>
-
 *Know your energetic body through chakras*
 
 ![lotus](https://media.istockphoto.com/id/472321225/vector/lotus-flower-buddhist-symbol.jpg?s=612x612&w=0&k=20&c=AyKHBlHp_RsbdDKF4g5L5k5lmzXCVkVn0qSC2THcyds=)
